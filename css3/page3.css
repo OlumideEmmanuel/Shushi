@@ -1,0 +1,83 @@
+body {
+  display: -ms-grid;
+  display: grid;
+}
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+  height: 85%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 60px;
+  margin-top: 40px;
+  border-radius: 16px;
+  -webkit-box-shadow: 5px 2px 9px 1px black;
+          box-shadow: 5px 2px 9px 1px black;
+}
+
+.sidebar img {
+  width: 40%;
+  height: 5%;
+  position: relative;
+  left: 35%;
+  margin-bottom: 50%;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 40px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+  background-color: #F1D5BB;
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.menu-down {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 4px;
+  color: #000000;
+  background-color: white;
+  -webkit-text-decoration: underline #F1D5BB;
+          text-decoration: underline #F1D5BB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=page3.css.map */
