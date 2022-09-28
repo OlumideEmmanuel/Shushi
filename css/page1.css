@@ -55,6 +55,11 @@ body {
   text-decoration: none;
 }
 
+.sushi-down .menu:hover {
+  color: white;
+  background-color: black;
+}
+
 .sushi-down .cart {
   position: absolute;
   width: 88px;
@@ -70,5 +75,10 @@ body {
   color: #000000;
   background-color: white;
   text-decoration: none;
+}
+
+.sushi-down .cart:hover {
+  color: white;
+  background-color: black;
 }
 /*# sourceMappingURL=page1.css.map */

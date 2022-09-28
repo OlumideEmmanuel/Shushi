@@ -39,7 +39,6 @@ body {
 .sidebar .b img {
   height: 20pt;
   width: 30px;
-  background-color: #F1D5BB;
 }
 
 .sidebar .c {
@@ -62,6 +61,7 @@ body {
 .sidebar .d img {
   height: 20pt;
   width: 30px;
+  background-color: #F1D5BB;
 }
 
 .sidebar .e {
@@ -103,48 +103,15 @@ body {
   display: flex;
 }
 
-.right-side {
+.contact-right {
   position: absolute;
-  left: 160px;
+  left: 200px;
   top: 100px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 15px;
-  font-weight: lighter;
-  padding-left: 40px;
+  width: 70%;
+  height: 70%;
 }
 
-.right-side .img {
-  height: 200px;
-  width: 200px;
-  padding-top: 0;
-  margin-top: 5%;
+.contact-right iframe {
+  height: 100%;
 }
-
-.right-side span {
-  padding-left: 30%;
-  margin-top: 10%;
-}
-
-.load {
-  background-color: #000000;
-  color: white;
-  position: absolute;
-  width: 100px;
-  height: 40px;
-  left: 43%;
-  top: 570px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 300;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 3px;
-  text-decoration: none;
-}
-
-.load:hover {
-  color: white;
-}
-/*# sourceMappingURL=page2.css.map */
+/*# sourceMappingURL=index.css.map */

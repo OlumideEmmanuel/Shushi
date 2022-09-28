@@ -6,16 +6,12 @@ body {
 /* Style the sidebar - fixed full height */
 .sidebar {
   height: 85%;
-  width: 80px;
-  position: fixed;
-  z-index: 1;
+  width: 90px;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: #111;
-  overflow-x: hidden;
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 16px;
   margin-left: 60px;
   margin-top: 40px;
   border-radius: 16px;
@@ -23,34 +19,60 @@ body {
           box-shadow: 5px 2px 9px 1px black;
 }
 
-.sidebar img {
-  width: 40%;
-  height: 5%;
-  position: relative;
-  left: 35%;
-  margin-bottom: 50%;
+.sidebar .a {
+  position: absolute;
+  top: 60px;
+  left: 35px;
 }
 
-/* Style sidebar links */
-.sidebar a {
-  padding: 6px 8px 40px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
+.sidebar .a img {
+  height: 20pt;
+  width: 30px;
 }
 
-/* Style links on mouse-over */
-.sidebar a:hover {
-  color: #f1f1f1;
+.sidebar .b {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+}
+
+.sidebar .b img {
+  height: 20pt;
+  width: 30px;
+}
+
+.sidebar .c {
+  position: absolute;
+  top: 260px;
+  left: 30px;
+}
+
+.sidebar .c img {
+  height: 20pt;
+  width: 30px;
   background-color: #F1D5BB;
 }
 
-/* Style the main content */
-.main {
-  margin-left: 160px;
-  /* Same as the width of the sidenav */
-  padding: 0px 10px;
+.sidebar .d {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+}
+
+.sidebar .d img {
+  height: 20pt;
+  width: 30px;
+}
+
+.sidebar .e {
+  position: absolute;
+  top: 440px;
+  left: 30px;
+}
+
+.sidebar .e img {
+  height: 20pt;
+  width: 30px;
 }
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
@@ -79,5 +101,372 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.sma {
+  background-color: #ffffff;
+  width: 900px;
+  height: 420px;
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sma .left {
+  background-color: #F1D5BB;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  height: 420px;
+}
+
+.sma .left .a {
+  height: 105px;
+  padding-top: 17.5px;
+  padding-left: 20px;
+}
+
+.sma .left .a .smach {
+  position: absolute;
+  top: 25px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sma .left .a .price {
+  position: absolute;
+  top: 55px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sma .left .a .white {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sma .left .a .white .ab {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.sma .left .a .white .ac {
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 22px;
+  text-align: center;
+}
+
+.sma .left .a .white .ad {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.sma .left .a .white .ae {
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+.sma .left .a .white h1 {
+  font-size: 20px;
+}
+
+.sma .left .a img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.sma .left .b {
+  height: 105px;
+  padding-top: 17.5px;
+  padding-left: 20px;
+}
+
+.sma .left .b .smach {
+  position: absolute;
+  top: 125px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sma .left .b .price {
+  position: absolute;
+  top: 155px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sma .left .b .white {
+  position: absolute;
+  right: 40px;
+  top: 145px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sma .left .b .white .ab {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.sma .left .b .white .ac {
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 22px;
+  text-align: center;
+}
+
+.sma .left .b .white .ad {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.sma .left .b .white .ae {
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+.sma .left .b .white h1 {
+  font-size: 20px;
+}
+
+.sma .left .b img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.sma .left .c {
+  height: 105px;
+  padding-top: 17.5px;
+  padding-left: 20px;
+}
+
+.sma .left .c .smach {
+  position: absolute;
+  top: 233px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sma .left .c .price {
+  position: absolute;
+  top: 263px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sma .left .c .white {
+  position: absolute;
+  right: 40px;
+  top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sma .left .c .white .ab {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.sma .left .c .white .ac {
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 22px;
+  text-align: center;
+}
+
+.sma .left .c .white .ad {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.sma .left .c .white .ae {
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+.sma .left .c .white h1 {
+  font-size: 20px;
+}
+
+.sma .left .c img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.sma .left .d {
+  height: 105px;
+  padding-top: 17.5px;
+  padding-left: 20px;
+}
+
+.sma .left .d .smach {
+  position: absolute;
+  top: 341px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sma .left .d .price {
+  position: absolute;
+  top: 371px;
+  left: 120px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sma .left .d .white {
+  position: absolute;
+  right: 40px;
+  top: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sma .left .d .white .ab {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.sma .left .d .white .ac {
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 22px;
+  text-align: center;
+}
+
+.sma .left .d .white .ad {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.sma .left .d .white .ae {
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+.sma .left .d .white h1 {
+  font-size: 20px;
+}
+
+.sma .left .d img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.sma .right {
+  background-color: #F1D5BB;
+  position: absolute;
+  top: 0px;
+  left: 530px;
+  height: 210px;
+  width: 370px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.sma .right .write {
+  padding: 15px 15px 20px 25px;
+}
+
+.sma .right .write .a {
+  font-size: 34px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.sma .right .write .b {
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.sma .right .write .c {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.sma .rightdown {
+  border: 1px solid #F1D5BB;
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  height: 210px;
+  width: 370px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.sma .rightdown .writedown {
+  padding: 10px 15px 20px 25px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.sma .rightdown .writedown .a {
+  font-size: 34px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.sma .rightdown .writedown .b input {
+  width: 43%;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+
+.sma .rightdown .writedown .b input[type="text"] {
+  border-radius: .4em;
+  border: 1px solid #afafaf;
+  background: transparent;
+  border-radius: 2px;
+  height: 10px;
+  width: 250px;
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sma .rightdown .writedown .c {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 200;
 }
 /*# sourceMappingURL=page3.css.map */

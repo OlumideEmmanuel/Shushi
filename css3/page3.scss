@@ -1,66 +1,98 @@
 body{
-    display: grid;
-    }
-    
-    
-    /* Style the sidebar - fixed full height */
-    .sidebar {
-       // display: grid;
-      height: 85%;
-      width: 80px;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      padding-top: 30px;
-      padding-left: 10px;
-      padding-right: 10px;
-      margin-left: 60px;
-      margin-top: 40px;
-      border-radius: 16px;
-      box-shadow: 5px 2px 9px 1px rgb(0, 0, 0);
-    
+  display: grid;
+  }
+  
+  
+  /* Style the sidebar - fixed full height */
+  .sidebar {
+    height: 85%;
+    width: 90px;
+    position: absolute;
+    //z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+   // overflow-x: hidden;
+    padding-top: 16px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 5px 2px 9px 1px rgb(0, 0, 0);
+  
+    .a{
+      position: absolute;
+      top: 60px;
+      left: 35px;
+  
       img{
-        width: 40%;
-        height: 5%;
-        //padding-left: 10px;
-        position: relative;
-        left: 35%;
-        margin-bottom: 50%;
-        
-    
+        height: 20pt;
+        width: 30px;
       }
     }
-    
-    /* Style sidebar links */
-    .sidebar a {
-      padding: 6px 8px 40px 16px;
-      text-decoration: none;
-      font-size: 20px;
-      color: #818181;
-      display: block;
+  
+    .b{
+      position: absolute;
+      top: 160px;
+      left: 30px;
       
+  
+  
+      img{
+        height: 20pt;
+        width: 30px;
+        
+      }
     }
-    
-    /* Style links on mouse-over */
-    .sidebar a:hover {
-      color: #f1f1f1;
-      background-color: #F1D5BB;
+  
+    .c{
+      position: absolute;
+      top: 260px;
+      left: 30px;
+  
+  
+      img{
+        height: 20pt;
+        width: 30px;
+        background-color:#F1D5BB;
+      }
     }
-    
-    /* Style the main content */
-    .main {
-      margin-left: 160px; /* Same as the width of the sidenav */
-      padding: 0px 10px;
+  
+    .d{
+      position: absolute;
+      top: 350px;
+      left: 30px;
+  
+  
+      img{
+        height: 20pt;
+        width: 30px;
+      }
     }
-    
-    /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-    @media screen and (max-height: 450px) {
-      .sidebar {padding-top: 15px;}
-      .sidebar a {font-size: 18px;}
+  
+    .e{
+      position: absolute;
+      top: 440px;
+      left: 30px;
+  
+  
+      img{
+        height: 20pt;
+        width: 30px;
+      }
     }
+  }
+  
+  
+  
+  
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
     
     
 .menu-down{
@@ -76,4 +108,406 @@ body{
     background-color: white;
    text-decoration: underline #F1D5BB;
    display: flex;
+}
+
+.sma{
+  background-color: #ffffff;
+  width: 900px;
+  height: 420px;
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  display: flex;
+
+  .left{
+    background-color: #F1D5BB;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 420px;
+    // padding-left: 10px;
+    // padding-top: 10px;
+
+      .a{
+        //background-color: hsl(49, 100%, 50%);
+        height: 105px;
+        padding-top: 17.5px;
+        padding-left: 20px;
+        
+        .smach{
+          position: absolute;
+          top: 25px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: bold;
+        }
+
+        .price{
+          position: absolute;
+          top: 55px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: 500;
+        }
+
+        .white{
+          position: absolute;
+          right: 40px;
+          top: 40px;
+          display: flex;
+
+          .ab{
+            font-size: 15px;
+            padding-right: 10px;
+          }
+
+          .ac{
+            font-size: 15px;
+            background-color: #ffffff;
+            width: 22px;
+            text-align: center;
+          }
+
+          .ad{
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          .ae{
+            font-size: 15px;
+            padding-left: 70px;
+          }
+
+
+          h1{
+            //display: none;
+            font-size: 20px;
+          }
+        }
+        
+        
+        img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50px;
+          
+          
+        }
+      }
+
+      .b{
+        //background-color: #ff0000;
+        height: 105px;
+        padding-top: 17.5px;
+        padding-left: 20px;
+
+        .smach{
+          position: absolute;
+          top: 125px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: bold;
+        }
+
+        .price{
+          position: absolute;
+          top: 155px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: 500;
+        }
+
+      
+        .white{
+          position: absolute;
+          right: 40px;
+          top: 145px;
+          display: flex;
+
+          .ab{
+            font-size: 15px;
+            padding-right: 10px;
+          }
+
+          .ac{
+            font-size: 15px;
+            background-color: #ffffff;
+            width: 22px;
+            text-align: center;
+          }
+
+          .ad{
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          .ae{
+            font-size: 15px;
+            padding-left: 70px;
+          }
+
+
+          h1{
+            //display: none;
+            font-size: 20px;
+          }
+        }
+        
+        
+        img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50px;
+          
+          
+        }
+
+        
+      }
+
+      .c{
+        //background-color: #6f00ff;
+        height: 105px;
+        padding-top: 17.5px;
+        padding-left: 20px;
+
+        .smach{
+          position: absolute;
+          top: 233px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: bold;
+        }
+
+        .price{
+          position: absolute;
+          top: 263px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: 500;
+        }
+
+        .white{
+          position: absolute;
+          right: 40px;
+          top: 250px;
+          display: flex;
+
+          .ab{
+            font-size: 15px;
+            padding-right: 10px;
+          }
+
+          .ac{
+            font-size: 15px;
+            background-color: #ffffff;
+            width: 22px;
+            text-align: center;
+          }
+
+          .ad{
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          .ae{
+            font-size: 15px;
+            padding-left: 70px;
+          }
+
+
+          h1{
+            //display: none;
+            font-size: 20px;
+          }
+        }
+
+        
+
+        img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50px;
+        }
+      }
+
+      .d{
+        //background-color: #00ff40;
+        height: 105px;
+        padding-top: 17.5px;
+        padding-left: 20px;
+
+        .smach{
+          position: absolute;
+          top: 341px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: bold;
+        }
+
+        .price{
+          position: absolute;
+          top: 371px;
+          left: 120px;
+          font-size: 17px;
+          font-weight: 500;
+        }
+
+        .white{
+          position: absolute;
+          right: 40px;
+          top: 360px;
+          display: flex;
+
+          .ab{
+            font-size: 15px;
+            padding-right: 10px;
+          }
+
+          .ac{
+            font-size: 15px;
+            background-color: #ffffff;
+            width: 22px;
+            text-align: center;
+          }
+
+          .ad{
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          .ae{
+            font-size: 15px;
+            padding-left: 70px;
+          }
+
+
+          h1{
+            //display: none;
+            font-size: 20px;
+          }
+        }
+        
+        
+
+        img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50px;
+        }
+      }
+
+
+
+
+  }
+
+  .right{
+    background-color: #F1D5BB;
+    position: absolute;
+    top: 0px;
+    left: 530px;
+    height: 210px;
+    width: 370px;
+    display: grid;
+    
+    .write{
+      padding: 15px 15px 20px 25px;
+
+
+      .a{
+        font-size: 34px;
+        padding-bottom: 10px;
+        font-weight:500;
+      }
+
+      .b{
+        font-size: 32px;
+        font-weight: 300;
+        padding-bottom: 20px;
+      }
+
+      .c{
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 300px;
+        text-align: center;
+        padding-top: 3px;
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: 200;
+
+        
+      }
+    }
+    
+  }
+
+  .rightdown{
+    border: 1px solid #F1D5BB;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    height: 210px;
+    width: 370px;
+    display: grid;
+
+    .writedown{
+      padding: 10px 15px 20px 25px;
+      display: grid;
+      
+      .a{
+        font-size: 34px;
+        padding-bottom: 10px;
+        font-weight:500;
+      }
+
+      // .b{
+      //   padding-bottom: 20px;
+        
+      //   .writedown input[type="text"]{
+      //     border: solid red 10px;
+      //   }
+
+      // }
+
+
+      .b input{
+        width: 43%;
+        margin-bottom: 15px;
+        margin-right: 30px;
+        
+            }
+
+
+    
+        .b input[type="text"]{
+        border-radius: .4em;
+        border: 1px solid rgb(175, 175, 175);
+        background: transparent;
+        //outline: none;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 200;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+      .c{
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: 200;
+      }
+    }
+  }
 }
